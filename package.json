@@ -1,6 +1,6 @@
 {
-  "name": "node-rules",
-  "version": "3.0.2",
+  "name": "node-rules-dynamic",
+  "version": "3.1.0",
   "description": "Business Rules Engine for JavaScript",
   "keywords": [
     "bre",
@@ -8,39 +8,38 @@
     "engine",
     "rule engine"
   ],
-  "author": {
-    "name": "Mithun Satheesh",
-    "email": "mithunsatish@gmail.com"
-  },
+  "author": "jeff-lewis (https://github.com/jeff-lewis)",
   "contributors": [
-    {
-        "name": "Abdul Munim Kazia",
-        "email" : "munim2020@gmail.com",
-        "url" : "http://munimkazia.com"
-    },
-    {
-        "name": "ramanaveli2i",
-        "url" : "https://github.com/ramanaveli2i"
-    }
+    "Mithun Satheesh <mithunsatish@gmail.com>",
+    "Abdul Munim Kazia <munim2020@gmail.com> (http://munimkazia.com)",
+    "ramanaveli2i (https://github.com/ramanaveli2i)"
   ],
-  "repository" : { 
-      "type" : "git",
-      "url" : "https://github.com/mithunsatheesh/node-rules"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeff-lewis/node-rules-dynamic.git"
   },
   "dependencies": {
-    "underscore": ">= 1.7"
+    "lodash": "^4.7.0"
   },
   "devDependencies": {
-      "mocha": "1.6.0",
-      "chai": "*",
-      "colors" : "1.0.3"
+    "chai": "^3.5.0",
+    "colors": "^1.1.2",
+    "mocha": "^2.4.5"
   },
   "main": "index.js",
   "engines": {
-    "node": ">= 0.4.x"
+    "node": ">= 0.10.x"
   },
   "scripts": {
-   "test": "./node_modules/mocha/bin/mocha"
+    "test": "node ./node_modules/mocha/bin/mocha"
   },
-  "readmeFilename": "README.md"
+  "bugs": {
+    "url": "https://github.com/jeff-lewis/node-rules-dynamic/issues"
+  },
+  "homepage": "https://github.com/jeff-lewis/node-rules-dynamic#readme",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "license": "ISC"
 }
